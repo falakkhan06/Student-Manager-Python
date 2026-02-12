@@ -1,43 +1,42 @@
-Student Manager (Python + SQLite)
+# Student Manager (Python + SQLite)
 
+A simple command-line application built using Python and SQLite to manage student records.  
+This project demonstrates Python database connectivity and CRUD operations in a relational database.
 
+## Features
+- Add new student records
+- View all students
+- Update student details
+- Delete student records
+- Persistent SQLite database storage
+- Command-line based user interface
 
-A simple Python application connected to SQLite database to manage student records.
+## Database Schema
+Table: students
+- student_id (Primary Key, Auto Increment)
+- name (Not Null)
+- department
+- year
+- email (Unique)
+- phone
 
+## Concepts Demonstrated
+- Python + SQLite database integration
+- CRUD operations (Create, Read, Update, Delete)
+- SQL query execution through Python
+- Basic database design
+- Command-line interface programming
 
+## How to Run
+1. Install Python
+2. Open terminal in project folder
+3. Run:
+   python main.py
 
-* Features
+## Tools Used
+- Python
+- SQLite
+- sqlite3 module
 
-1. Add new student
-2. View all students
-3. Update student details
-4. Delete student
-5. Uses SQLite database
-6. Python database connectivity
-
-
-
-* Concepts Used
-
-1. Python + SQLite integration
-2. CRUD operations
-3. Database table creation
-4. Query execution using Python
-5. Simple command-line interface
-
-
-
-* Tools
-
-1. Python
-2. SQLite
-
-
-
->> Author
-
+## Author
 Falak Irfan Khan
-
-
-
-
