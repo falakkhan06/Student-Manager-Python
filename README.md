@@ -1,4 +1,4 @@
-\# Student Manager (Python + SQLite)
+Student Manager (Python + SQLite)
 
 
 
@@ -6,7 +6,7 @@ A simple Python application connected to SQLite database to manage student recor
 
 
 
-* &nbsp;Features
+* Features
 
 1. Add new student
 2. View all students
@@ -37,6 +37,7 @@ A simple Python application connected to SQLite database to manage student recor
 >> Author
 
 Falak Irfan Khan
+
 
 
 
